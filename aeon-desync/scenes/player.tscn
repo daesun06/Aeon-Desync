@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://oibg51qeypnr"]
+
+[ext_resource type="Texture2D" uid="uid://ymvg3cwyrved" path="res://assets/sprites/astolfo_spritesheet.png" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://dk0xo7kyu8fsv" path="res://scenes/player.gd" id="1_g2els"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g2els"]
+atlas = ExtResource("1_3vyb7")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhqgy"]
+atlas = ExtResource("1_3vyb7")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dqkch"]
+atlas = ExtResource("1_3vyb7")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qlg0r"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g2els")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhqgy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dqkch")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 9.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tuyoq"]
+
+[node name="Player" type="CharacterBody2D" unique_id=1304586398]
+script = ExtResource("1_g2els")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=714130524]
+sprite_frames = SubResource("SpriteFrames_qlg0r")
+animation = &"walk"
+autoplay = "walk"
+frame_progress = 0.89597017
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1972341932]
+position = Vector2(0, 1)
+shape = SubResource("CapsuleShape2D_tuyoq")
