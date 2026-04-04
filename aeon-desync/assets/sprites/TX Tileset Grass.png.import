@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blle5fdf7wfrg"
-path="res://.godot/imported/astolfo_spritesheet.png-7c11ad27abb920e49cc84f6ddcc0dd3a.ctex"
+uid="uid://btitvj0uy6pd7"
+path="res://.godot/imported/TX Tileset Grass.png-8abbffede93745c128df38ef10baa426.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/astolfo_spritesheet.png"
-dest_files=["res://.godot/imported/astolfo_spritesheet.png-7c11ad27abb920e49cc84f6ddcc0dd3a.ctex"]
+source_file="res://assets/sprites/TX Tileset Grass.png"
+dest_files=["res://.godot/imported/TX Tileset Grass.png-8abbffede93745c128df38ef10baa426.ctex"]
 
 [params]
 

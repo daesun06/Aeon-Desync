@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blle5fdf7wfrg"
-path="res://.godot/imported/astolfo_spritesheet.png-7c11ad27abb920e49cc84f6ddcc0dd3a.ctex"
+uid="uid://bufcks88j40gn"
+path="res://.godot/imported/TX Struct.png-de986d6437d97b025178da4b4424f2a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/astolfo_spritesheet.png"
-dest_files=["res://.godot/imported/astolfo_spritesheet.png-7c11ad27abb920e49cc84f6ddcc0dd3a.ctex"]
+source_file="res://assets/sprites/TX Struct.png"
+dest_files=["res://.godot/imported/TX Struct.png-de986d6437d97b025178da4b4424f2a5.ctex"]
 
 [params]
 

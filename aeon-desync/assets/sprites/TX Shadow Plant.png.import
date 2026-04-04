@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blle5fdf7wfrg"
-path="res://.godot/imported/astolfo_spritesheet.png-7c11ad27abb920e49cc84f6ddcc0dd3a.ctex"
+uid="uid://cv32iy6cfm5bx"
+path="res://.godot/imported/TX Shadow Plant.png-0593dac46ecd2aff2aba087b02e1c0d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/astolfo_spritesheet.png"
-dest_files=["res://.godot/imported/astolfo_spritesheet.png-7c11ad27abb920e49cc84f6ddcc0dd3a.ctex"]
+source_file="res://assets/sprites/TX Shadow Plant.png"
+dest_files=["res://.godot/imported/TX Shadow Plant.png-0593dac46ecd2aff2aba087b02e1c0d2.ctex"]
 
 [params]
 
