@@ -2,7 +2,14 @@
 
 [ext_resource type="Texture2D" uid="uid://blle5fdf7wfrg" path="res://assets/sprites/astolfo_spritesheet.png" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://dk0xo7kyu8fsv" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="Shader" uid="uid://cc1fu05atn86" path="res://assets/occlusion.gdshader" id="2_dqkch"]
 [ext_resource type="Texture2D" uid="uid://cr4iu0j6fq21l" path="res://assets/sprites/astolfo_spritesheet_idle.png" id="2_qhqgy"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dqkch"]
+shader = ExtResource("2_dqkch")
+shader_parameter/outline_color = Color(0.94326603, 0.64411616, 0.87557006, 1)
+shader_parameter/outline_size = 1
+shader_parameter/alpha_threshold = 0.1
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f1ej7"]
 atlas = ExtResource("2_qhqgy")
@@ -190,6 +197,7 @@ animations = [{
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tuyoq"]
 
 [node name="Player" type="CharacterBody2D" unique_id=1304586398]
+material = SubResource("ShaderMaterial_dqkch")
 script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=714130524]
