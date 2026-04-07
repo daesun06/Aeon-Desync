@@ -705,6 +705,7 @@ tile_map_data = PackedByteArray("AAAAAAEAAQAAAAcAAAAAAAMAAQABAAUAAAACAAMAAQABAAQ
 tile_set = SubResource("TileSet_iywne")
 
 [node name="upper1" type="TileMapLayer" parent="TileMap" unique_id=1316675301]
+z_index = 1
 use_parent_material = true
 tile_map_data = PackedByteArray("AAAkAAEAAgASAAEAAAAAAAcAAgASAAEAAAATAAsAAgANAAsAAAAdAAEAAgARAAsAAAAoAAoAAgAVAAsAAAANAAQAAgAGAAwAAAAFAAIAAgACAAwAAAAVAAIAAwAGAAEAAAAkAAsAAwAOABIAAAACAAIAAwAGAAoAAAAHAAsAAwAOAAUAAAA=")
 tile_set = SubResource("TileSet_iywne")

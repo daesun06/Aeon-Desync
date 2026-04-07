@@ -1,6 +1,6 @@
 extends CharacterBody2D
 const SPEED = 120.0
-var current_direction = "none"
+var current_direction = "down"
 
 func _ready():$AnimatedSprite2D.play("idle_down") 
 
